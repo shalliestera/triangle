@@ -4,7 +4,7 @@ std::ostream& Pythagorean::operator()(int limit, std::ostream& os){
 	int shorter;
 	int longer;
 	int hypotenuse;
-	int loops = 0;  // loops count
+	unsigned int loops = 0;  // loops count
 	int valid = 0;  // valid data
 	// shorter < longer < hypotenuse
 	int powLimit = limit*limit;
